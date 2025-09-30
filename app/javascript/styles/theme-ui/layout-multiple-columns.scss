@@ -8,7 +8,7 @@
   --logo: url('../images/theme/wordmark_dark.png');
   --m-logo: url('../images/theme/m_logo_dark.png');
   --color-column: rgba(0, 0, 0, 0.4);
-  --color-columns: #1e202850;
+  --color-columns: #241e2850;
 
   /* Brand colors */
   --color-brand-twitter: #1d9bf0;
@@ -16,28 +16,28 @@
   --color-brand-twitter-dim: #8b98a5;
   --color-brand-twitter-mud: #273340;
   --color-brand-twitter-dark: #232543;
-  --color-brand-twitter-threaded-line: #425364;
-  --color-brand-mastodon: #27a4b8;
-  --color-brand-mastodon-links: #81c5cf;
-  --color-brand-mastodon-bg: #1e2028;
-  --color-brand-mastodon-dim: #717c9b;
-  --color-brand-mastodon-mud: #272c40;
-  --color-brand-mastodon-dark: #232543;
-  --color-brand-mastodon-threaded-line: #434264;
-  --color-brand-mastodon-text-light: #8493a7;
+  --color-brand-twitter-threaded-line: #444264;
+  --color-brand-mastodon: #bd81cf;
+  --color-brand-mastodon-links: #b681cf;
+  --color-brand-mastodon-bg: #251e28;
+  --color-brand-mastodon-dim: #85719b;
+  --color-brand-mastodon-mud: #362740;
+  --color-brand-mastodon-dark: #352343;
+  --color-brand-mastodon-threaded-line: #564264;
+  --color-brand-mastodon-text-light: #9a84a7;
 
   /* Colors */
   /* Note: Remember to search for the DIM hex
      and replace it inside the SVG icons if you decide to change it */
   --color-bg: var(--color-brand-mastodon-bg);
-  --color-bg-75: #1e2028bf;
+  --color-bg-75: #241e28bf;
   --color-fg: #fff;
-  --color-border: #38384d;
+  --color-border: #44384d;
   --color-dim: var(--color-brand-mastodon-dim);
 
-  --color-accent:  #81c5cf;
-  --color-accent-dark: #27a4b8;
-  --color-accent-dark-50: #27a4b880;
+  --color-accent:  #b681cf;
+  --color-accent-dark: #bd81cf;
+  --color-accent-dark-50: #bd81cf80;
   
   --color-green: #00ba7c;
   --color-red: #f91880;
@@ -49,8 +49,8 @@
   --color-mud: var(--color-brand-mastodon-mud);
   --color-black-coral: #5a5371;
   --color-profile-button-hover: #f1eff41a;
-  --color-column-link-hover: #f7f7f91a;
-  --color-modal-overlay: #5b708366;
+  --color-column-link-hover: #f8f7f91a;
+  --color-modal-overlay: #765b8366;
   --color-dark: var(--color-brand-mastodon-dark);
   --color-thread-line: var(--color-brand-mastodon-threaded-line);
   --color-gainsboro: #dcd9e8;

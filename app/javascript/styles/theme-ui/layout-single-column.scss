@@ -35,11 +35,11 @@
   --color-bg-75: #1e2028bf;
   --color-fg: #fff;
   --color-border: #38384d;
-  --color-dim: var(--color-brand-mastodon-dim);
+  --color-dim: var(--color-brand-mastodon-dim); //다크모드 서브텍스트
 
-  --color-accent:  #81c5cf;
-  --color-accent-dark: #27a4b8;
-  --color-accent-dark-50: #27a4b880;
+  --color-accent:  #bd81cf;
+  --color-accent-dark: #9d85a6;
+  --color-accent-dark-50: #9d85a680;
 
   --color-green: #00ba7c;
   --color-red: #f91880;
@@ -230,27 +230,27 @@ body.theme-default.layout-single-column {
   --bg-image : url('../images/theme/bg_light.png');
   --logo: url('../images/theme/wordmark_light.png');
   --m-logo: url('../images/theme/m_logo_light.png');
-  --color-column: rgba(255, 255, 255, 0.4);
+  --color-column: rgba(255, 255, 255, 0.7);
 
-  --color-brand-mastodon: #be2a4d;
-  --color-brand-mastodon-links: #df98a2;
-  --color-accent-dark-50: #be2a4d80;
+  --color-brand-mastodon: #627a59;
+  --color-brand-mastodon-links: #b2df98;
+  --color-accent-dark-50: #627a5980;
 
-  --color-accent:#df98a2;
-  --color-accent-dark: #be2a4d;
+  --color-accent:#afdf98;
+  --color-accent-dark: #627a59; //게시 버튼 색상
 
-  --color-border: #e9dee0;
-  --color-dim: #c16c80;
+  --color-border: #e2e9de;
+  --color-dim: #709961; //서브텍스트 색상
 
-  --color-mud: #f0dee2;
-  --color-light-purple: #df98a2;
+  --color-mud: #e7f0de; //검색창 백그라운드 색상
+  --color-light-purple: #b2df98;
   
-  --color-bg-compose-form: rgb(192 108 128 / .2);
-  --color-bg-compose-form-focus: rgb(192 108 128/ .4);
+  --color-bg-compose-form: rgba(146, 192, 108, .2); //툿 입력창 마우스오버전
+  --color-bg-compose-form-focus: rgb(146 192 128/ .4); //툿 입력청 마우스오버 상태
 
 
   --color-bg: #fff;
-  --color-fg: #000;
+  --color-fg: #000; //탐라 컬럼 및 프로필 검정글씨
 
   --color-green: #17bf63;
   --color-red: #e0245e;
@@ -259,7 +259,7 @@ body.theme-default.layout-single-column {
   --color-light-shade: #00000005;;
 
   --color-focusable-toot: rgba(0, 0, 0, 0.035);
-  --color-light-text: #1f1b23;
+  --color-light-text: #1f1b23; //좌측 메뉴 및 탐라 닉네임 글씨색
   
   --color-black-coral: #9188a6;
 
@@ -269,7 +269,7 @@ body.theme-default.layout-single-column {
   --color-modal-overlay: #6a5b8366;
   --color-dark: #f7f9f9;
   --color-thread-line: #e1e8ed;
-  --color-topaz: #8899a6;
+  --color-topaz: #9c88a6;
 
   --color-dark-electric-blue: #9088a6;
   --color-bg-75: #ffffffbf;
@@ -389,7 +389,7 @@ body.layout-single-column {
   background-image: var(--bg-image);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center bottom;
+  background-position: center top;
   color: var(--color-fg);
 }
 
